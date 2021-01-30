@@ -18,8 +18,7 @@ pitest {
     timestampedReports = true  
 }  
 
-Usamos como base o projeto do João Farias sobre mutação de testes, apesar de ele ter feito em kotlin o exemplo do mesmo não rodaria em um projeto android,  
-ele segue um padrão maven java.  
+Usamos como base o projeto do João Farias sobre mutação de testes, apesar de ele ter feito em kotlin o exemplo do mesmo não rodaria em um projeto android,  ele segue um padrão maven java.  
 
 
 
