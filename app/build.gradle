@@ -38,7 +38,6 @@ android {
 build.dependsOn 'pitest'
 
 dependencies {
-
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     testImplementation(platform("org.junit:junit-bom:5.7.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
@@ -46,8 +45,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     compileOnly 'com.google.android.things:androidthings:1.0'
     testImplementation "org.junit.jupiter:junit-jupiter-engine:5.7.0"
-
-
 }
 
 pitest {
@@ -56,5 +53,5 @@ pitest {
     targetClasses = ['com.reinaldo.mutation_testing.*']  //by default "${project.group}.*"
     threads = 4
     outputFormats = ['XML', 'HTML']
-    timestampedReports = false
+    timestampedReports = true
 }
