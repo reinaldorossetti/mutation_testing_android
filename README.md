@@ -20,7 +20,8 @@ pitest {
 
 Usamos como base o projeto do João Farias sobre mutação de testes, apesar de ele ter feito em kotlin o exemplo do mesmo não rodaria em um projeto android,  ele segue um padrão maven java.  
 
-
+Support of Mockk as Mocking Framework for Kotlin:
+https://github.com/hcoles/pitest/issues/790
 
 Referencias:  
 https://gradle-pitest-plugin.solidsoft.info/  

@@ -1,5 +1,6 @@
-package com.reinaldo.mutation_testing
+package basic
 
+import com.reinaldo.mutation_testing.Calculator
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Assertions.assertEquals

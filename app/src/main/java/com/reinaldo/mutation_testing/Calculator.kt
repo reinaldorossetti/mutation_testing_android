@@ -16,6 +16,10 @@ class Calculator(var displayedValue: Double = 0.0) {
         displayedValue = displayedValue.pow(x)
     }
 
+    fun division(x: Double, y: Double) {
+        displayedValue = x / y
+    }
+
     fun getResult() = displayedValue
 
     private fun resetValue(x: Double) {

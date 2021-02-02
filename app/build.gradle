@@ -50,8 +50,8 @@ dependencies {
 pitest {
     testPlugin = 'junit5'
     junit5PluginVersion = '0.12'
-    targetClasses = ['com.reinaldo.mutation_testing.*']  //by default "${project.group}.*"
+    targetClasses = ['basic.*']  //by default "${project.group}.*"
     threads = 4
     outputFormats = ['XML', 'HTML']
-    timestampedReports = true
+    timestampedReports = false
 }
