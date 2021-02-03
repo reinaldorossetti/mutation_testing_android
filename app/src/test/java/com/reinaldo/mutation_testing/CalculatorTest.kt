@@ -1,4 +1,4 @@
-package basic
+package com.reinaldo.mutation_testing
 
 import com.reinaldo.mutation_testing.Calculator
 import org.junit.jupiter.api.Test

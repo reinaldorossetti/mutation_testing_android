@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id "pl.droidsonroids.pitest"
-    id 'info.solidsoft.pitest'
+    //id 'info.solidsoft.pitest'
 }
 
 android {
@@ -50,7 +50,8 @@ dependencies {
 pitest {
     testPlugin = 'junit5'
     junit5PluginVersion = '0.12'
-    targetClasses = ['basic.*']  //by default "${project.group}.*"
+    targetClasses = ['com.reinaldo.mutation_testing.*']
+    //excludedClasses = ['**CalculatorTest*']
     threads = 4
     outputFormats = ['XML', 'HTML']
     timestampedReports = false
